@@ -1,0 +1,10 @@
+<section>
+    <input placeholder="What are you working on?" [(ngModel)]="taskName"/>
+    <button>
+        <mat-icon>add</mat-icon>
+        Project
+    </button>
+    <mat-icon>notifications_none</mat-icon>
+    <mat-icon>notifications_none</mat-icon>
+    <app-timmer (time)="updateTimerSubject($event)"></app-timmer>
+</section>

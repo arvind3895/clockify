@@ -1,1 +1,18 @@
-<p>toolbar works!</p>
+<mat-toolbar>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>Clockify</span>
+    <span class="example-spacer"></span>
+    <div class="toolbar-element">{{userName? userName +"'s workspace":"workspace"}}</div>
+    <button mat-stroked-button class="toolbar-element" color="primary">UPGRADE</button>
+    <button mat-icon-button class="toolbar-element">
+        <mat-icon>help_outline</mat-icon>
+      </button>
+      <button mat-icon-button class="toolbar-element">
+        <mat-icon>notifications_none</mat-icon>
+      </button>
+    <button mat-icon-button class="toolbar-element profile">
+      A
+    </button>
+</mat-toolbar>

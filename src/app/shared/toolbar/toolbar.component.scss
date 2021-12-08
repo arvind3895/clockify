@@ -1,0 +1,13 @@
+mat-toolbar{
+    display: flex;
+    .example-spacer{
+        flex:1;
+    }
+    .toolbar-element{
+        margin: 0 1rem;
+    }
+    .profile{
+        border: 1px solid black;
+        border-radius:50% ;
+    }
+}

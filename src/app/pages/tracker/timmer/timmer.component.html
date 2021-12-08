@@ -1,0 +1,8 @@
+<div>
+<span>{{hr | number:'2.0-0'}}:</span>
+<span>{{min | number:'2.0-0'}}:</span>
+<span>{{sec | number:'2.0-0'}}</span>
+
+<button *ngIf="!play" mat-flat-button class="toolbar-element" (click)="start()" color="primary">Start</button>
+<button *ngIf="play" mat-flat-button class="toolbar-element" (click)="pause()" color="accent">Stop</button>
+</div>
